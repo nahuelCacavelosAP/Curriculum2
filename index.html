@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="css/extra.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display" rel="stylesheet">
+    <title>CV</title>
+  </head>
+
+
+  <body>
+    <div id="perfil">
+      <img class="wow rotateOut" id="mi-foto" src="images/foto-de-perfil2.jpg">
+      <div class=" menu wow wobble">
+        <ul>
+          <li>
+            <a href="#presentacion"> Presentación </a>
+          </li>
+          <li>
+            <a href="#formacion"> Formación </a>
+          </li>
+          <li>
+            <a href="#experiencia"> Experiencia </a>
+          </li>
+          <li>
+            <a href="#portfolio"> Portfolio anterior asdsa </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div id="contenido">
+
+      <div id="presentacion" class=" wow wobble seccion-cv color-verde">
+
+
+
+        <div class="titulo">
+          <h1>Quién soy</h1>
+          <h2>Agustina González </h2>
+          <h3>Front-End jr.</h3>
+        </div>
+
+        <div class="cuerpo">
+          <div class="datos">
+            <ul>
+              <li>Nombre: Agustina González  </li>
+              <li>Edad: 18</li>
+              <li>Dirección: Niceto 2502</li>
+              <li>Email: agustina@gonzalez.com </li>
+              <li>Telefono: +54 115 251 2245</li>
+              <li>Skype: agus.gonz</li>
+            </ul>
+          </div>
+          <p>Soy una persona con muchos intereses y gustos diferentes.
+            Estoy terminando la secundaria y tengo ganas de trabajar
+             en un lugar donde pueda aprender y crecer como profesional.
+          </p>
+          <p>
+           Siento que podría integrarme en un equipo de trabajo y soy muy responsable
+           en las tareas que me corresponden.
+          </p>
+
+
+        </div>
+      </div>
+
+      <div id="formacion" class=" wow wobble seccion-cv">
+
+        <div class="titulo">
+          <h1>Formación</h1>
+        </div>
+
+        <div class="cuerpo">
+          <div class="item">
+            <h4>
+              Bachiller Instituto Juan Santos Gaynor
+            </h4>
+            <p>Estoy cursando la orientación en comunicación e inform&aacute;tica de la secundaria.
+              Elegí esta orientación porque me pareció lo m&aacute;s interesante de todo lo que había
+              disponible. Me gustan mucho las materias que vemos de inform&aacute;tica y es donde tengo
+              las mejores calificaciones. Espero poder terminar la secundaria y seguir
+              estudiando alguna carrera en inform&aacute;tica ó comunicación.</p>
+          </div>
+          <div class="item">
+            <h4>
+              Curso HTML 5 – Ac&aacute;mica
+            </h4>
+            <p>El curso de HTML 5 me ayudó a entender mucho mejor cómo los
+               dispositivos móviles se utilizan en la actualidad y lo importante
+               que es que las p&aacute;ginas web y todas las aplicaciones que utilizan internet,
+               puedan diseñarse pensando desde lo móvil.</p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div id="experiencia" class="wow wobble seccion-cv">
+
+        <div class="titulo">
+          <h2>Experiencia</h2>
+        </div>
+
+        <div class="cuerpo">
+          <p> Como aún estoy en la secundaria, no tengo mucha experiencia laboral,
+             pero sí trabajé dando clases particulares a chicos que est&aacute;n en años
+             anteriores, de primaria y secundaria. Me gustaría empezar a trabajar
+             en alguna empresa de tecnología y donde pueda seguir aprendiendo de programación.
+          </p>
+
+
+        </div>
+      </div>
+
+      <div id="portfolio" class=" wow zoomOutRight seccion-cv" data-wow-delay="1s" data-wow-duration="2s">
+
+        <div class="titulo">
+          <h3>Portfolio (PRÓXIMAMENTE)</h3>
+        </div>
+
+        <div class="cuerpo">
+          <div class="slider">
+            <ul>
+              <li><iframe src="Noticias/telam.html" width="600" height="600"></iframe></li>
+              <li><iframe src="Rompecabezas/juego.html" width="650" height="600"></iframe></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/unslider.js"></script>
+  <!-- <script src="js/wow.min.js"></script> -->
+  <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: true,
+        autoplay: false
+      });
+    });
+  </script>
+  <script>
+          new WOW().init();
+  </script>
+
+  </body>
+</html>

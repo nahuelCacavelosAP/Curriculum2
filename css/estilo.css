@@ -1,0 +1,98 @@
+/*Preliminar 3*/
+
+body {
+    margin: 0 auto;
+    min-height: 100%;
+    background-color: rgb(240, 240, 232);
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: rgb(94, 84, 72);
+  font-family: 'Lato', sans-serif;
+}
+.color-verde {
+  color: rgb(133, 216, 204);
+}
+.fuente-1{
+  font-family: 'Playfair Display', serif;
+}
+h1, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-weight: normal;
+  border-bottom: solid 2px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(1, 112, 189);
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+h3, h4 {
+  color: rgb(223,141,122);
+}
+
+.seccion-cv {
+  padding: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.seccion-cv .titulo{
+  padding-bottom: 6px;
+}
+
+.cuerpo:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#perfil {
+  width: 15%;
+  float: left;
+  margin-top: 30px;
+  position: fixed;
+}
+
+
+
+#contenido {
+    width: 82%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    float: right;
+}
+@media (max-width: 768px) {
+  #contenido, #perfil {
+    width: 100%;
+    float: none;
+    position: relative;
+  }
+}
+
+.datos li {
+  font-size: 12px;
+  padding: 5px 0;
+  border-bottom: dotted 1px rgb(223,141,122);
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
